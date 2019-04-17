@@ -17,3 +17,11 @@
   -ms-user-select: $argument;
   user-select: $argument;
 }
+
+//create a full browser height with a full fixed background
+@mixin cover-background(){
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
